@@ -35,7 +35,7 @@ Class imbalance is a common problem in machine learning, where the number of exa
 In this experiment, SMOTE was applied to the imbalanced dataset to improve neural network performance during training and subsequently enhance the quality of the knowledge distillation process. The imbalanced-learn library in Python was used to implement SMOTE. After applying SMOTE, the resulting dataset had a more balanced class distribution, which was used to train the neural networks and perform knowledge distillation. The application of SMOTE led to improved results, which were recorded and analyzed. 
 ## Results:
 Tacher: DenseNet
-Without Smoteing:
+Without Smoting:
 | Model | Knowledge Distillation | Accuracy | Precision | Recall | F1 Score |
 |-------|-----------------------|----------|-----------|--------|----------|
 | Student Model 1 (DNET) | No | 0.53 | 0.56 | 0.46 | 0.46 |
@@ -44,7 +44,7 @@ Without Smoteing:
 | Shuffle Net (Student Model 2) | Yes | 0.63 | 0.63 | 0.63 | 0.62 |<br>
 
 
-With Smoteing:<br>
+With Smoteng:<br>
 
 
 | Model | Knowledge Distillation | Accuracy | Precision | Recall | F1 Score |
