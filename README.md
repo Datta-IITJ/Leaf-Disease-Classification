@@ -44,7 +44,7 @@ Without Smoting:
 | Shuffle Net (Student Model 2) | Yes | 0.63 | 0.63 | 0.63 | 0.62 |<br>
 
 
-With Smoteng:<br>
+With Smoting:<br>
 
 
 | Model | Knowledge Distillation | Accuracy | Precision | Recall | F1 Score |
@@ -54,8 +54,8 @@ With Smoteng:<br>
 | Shuffle Net (Student Model 2) | No | 0.58 | 0.64 | 0.58 | 0.59 |
 | Shuffle Net (Student Model 2) | Yes | 0.64 | 0.69 | 0.64 | 0.66 |
 
-Tacher: Resnet
-Without Smoteing:
+Teacher: Resnet
+Without Smoting:
 
 | Model | Knowledge Distillation | Accuracy | Precision | Recall | F1 Score |
 |-------|-----------------------|----------|-----------|--------|----------|
@@ -64,7 +64,7 @@ Without Smoteing:
 | Shuffle Net (Student Model 3) | No | 0.41 | 0.30 | 0.42 | 0.34 |
 | Shuffle Net (Student Model 3) | Yes | 0.63 | 0.61 | 0.63 | 0.61 |
 
-With Smoteing:
+With Smoting:
 
 | Model | Knowledge Distillation | Accuracy | Precision | Recall | F1 Score |
 |-------|-----------------------|----------|-----------|--------|----------|
@@ -74,14 +74,14 @@ With Smoteing:
 | Shuffle Net (Student Model 3) | Yes | 0.62 | 0.67 | 0.62 | 0.63 |
 
 Comparsion with the teacher models: 
-Without Smoteting:
+Without Smoting:
 | Model | Accuracy | Precision | Recall | F1 Score |
 |-------|----------|-----------|--------|----------|
 | DenseNet 121 | 0.75 | 0.77 | 0.75 | 0.69 |
 | Resnet 101 | 0.77 | 0.81 | 0.77 | 0.77 |
 | Ensemble Model | 0.67 | 0.65 | 0.67 | 0.65 |
 
-With Smoteing: 
+With Smoting: 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |-------|----------|-----------|--------|----------|
 | DenseNet 121 | 0.77 | 0.79 | 0.77 | 0.78 |
